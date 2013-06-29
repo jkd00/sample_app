@@ -1,4 +1,4 @@
-require 'spec_helper'
+    require 'spec_helper'
 
 describe "Statics" do
   describe "GET /statics" do
