@@ -27,10 +27,13 @@ end
 gem 'jquery-rails', '2.0.2'
 
 # Test gems on Macintosh OS X
+
 group :test do
   gem 'capybara', '1.1.2'
   gem 'rb-fsevent', '0.9.1', :require => false
   gem 'growl', '1.0.3'
+  gem 'factory_girl_rails', '4.1.0'
+
 end
 
 group :production do
